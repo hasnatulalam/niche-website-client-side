@@ -1,7 +1,7 @@
 # Smart Watch - is a website that features some of the quality Watch that you desire to buy.
 
 Firebase live site [link](https://niche-website-4ee72.web.app/).  
-Heroku live server  [link](https://shrouded-crag-70396.herokuapp.com/).
+Heroku live server  [link](http://localhost:5000/).
 
 * In this project, I'm developing an online shop that sales high quality Watches.
 * Here, visitors can sign in or register via email and buy any Watches they want by providing necessary information.

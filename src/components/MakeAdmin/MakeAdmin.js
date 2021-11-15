@@ -10,7 +10,7 @@ const MakeAdmin = () => {
 
     const handleAdminSubmit = e => {
         const user = { email };
-        fetch('https://shrouded-crag-70396.herokuapp.com/users/admin', {
+        fetch('http://localhost:5000/users/admin', {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
@@ -23,15 +23,27 @@ const MakeAdmin = () => {
                 if (data.matchedCount) {
                     setSuccess(true);
                     setEmail('');
+                    
                 }
                 else {
                     setSuccess(false);
-                    alert('something went wrong!')
+                    alert('Admin Created Successfully')
+                   
                 }
             })
 
         e.preventDefault()
-    }
+    } 
+ /*    .then(res => res.json())
+    .then(data => {
+        if (data.modifiedCount) {
+            console.log(data);
+            setSuccess(true);
+        }
+    })
+
+e.preventDefault()
+} */
 
     return (
         <div className='mt-5'>
@@ -42,7 +54,7 @@ const MakeAdmin = () => {
                     <button className="btn btn-outline-secondary" type="submit" id="button-addon2">Submit</button>
                 </div>
             </form>
-            {success && <div><h3>Made admin successfully</h3></div>}
+            {!success && <div><h3>Made admin successfully</h3></div>}
         </div>
     );
 };

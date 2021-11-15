@@ -9,7 +9,7 @@ const UserReview = () => {
     const onSubmit = data => {
         data.displayName = user.displayName;
         data.email = user.email;
-        const url = `https://shrouded-crag-70396.herokuapp.com/addReview`;
+        const url = `http://localhost:5000/addReview`;
         fetch(url, {
             method: 'POST',
             headers: {
@@ -28,7 +28,9 @@ const UserReview = () => {
 
     return (
         <div className='d-flex justify-content-start mt-5'>
+              
             <form className='border p-5 rounded' onSubmit={handleSubmit(onSubmit)}>
+                   <p className="text-primary">Add Your Review</p>
                 <div className="mb-3">
                     <label htmlFor="forName" className="form-label">Your name</label>
                     <input defaultValue={user.displayName} {...register("displayName")} type="text" className="form-control" id="forName" disabled />
@@ -45,7 +47,7 @@ const UserReview = () => {
                     <label htmlFor="forPrice" className="form-label">Rating (1-5)</label>
                     <input defaultValue="" {...register("rating")} type="text" className="form-control" id="forPrice" />
                 </div>
-                <input className="btn btn-dark w-100" type="submit" value="Submit Review" />
+                <input className="btn btn-primary w-100" type="submit" value="Submit Review" />
             </form>
         </div>
     );

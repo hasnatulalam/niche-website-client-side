@@ -8,7 +8,7 @@ const ManageOrders = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const url = `https://shrouded-crag-70396.herokuapp.com/orders`;
+        const url = `http://localhost:5000/orders`;
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -22,7 +22,7 @@ const ManageOrders = () => {
         const updatedorder = orders.find(order => order._id === id);
         updatedorder.status = 'shipped';
 
-        const url = `https://shrouded-crag-70396.herokuapp.com/approve/${id}`;
+        const url = `http://localhost:5000/approve/${id}`;
         fetch(url, {
             method: 'PUT',
             headers: {
@@ -46,7 +46,7 @@ const ManageOrders = () => {
         console.log(id);
         const proceed = window.confirm('Are you sure, you want to cancel the order?')
         if (proceed) {
-            const url = `https://shrouded-crag-70396.herokuapp.com/deleteOrder/${id}`
+            const url = `http://localhost:5000/deleteOrder/${id}`
             fetch(url, {
                 method: 'DELETE'
             })

@@ -13,7 +13,7 @@ const PlaceOrder = () => {
     const { register, handleSubmit, reset } = useForm();
 
     useEffect(() => {
-        const url = `https://shrouded-crag-70396.herokuapp.com/products/${productId}`;
+        const url = `http://localhost:5000/products/${productId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setProduct(data))
@@ -23,7 +23,7 @@ const PlaceOrder = () => {
         data.order = product._id;
         data.status = 'pending';
 
-        const url = `https://shrouded-crag-70396.herokuapp.com/placeOrder`;
+        const url = `http://localhost:5000/placeOrder`;
         fetch(url, {
             method: 'POST',
             headers: {

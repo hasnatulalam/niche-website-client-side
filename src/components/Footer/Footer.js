@@ -7,9 +7,10 @@ const Footer = () => {
         <div style={{ backgroundColor: '#1a1a1a' }} className='py-5 mt-5 text-light'>
             <Container>
                 <Row className='row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 mb-4'>
-                    <Col className='mb-3'>
+                    <Col className='mt-5'>
                         <div className='mb-4'>
-                            <h2>Smart Watch</h2>
+                            <h2>Bike Shop</h2>
+                            <img src="https://i.ibb.co/jWqW3Yc/logo.png" style={{ height: '50px', width: '100px' }} alt="" />
 
                         </div>
                     </Col>
@@ -37,13 +38,13 @@ const Footer = () => {
                             <i className="fab fa-twitter"></i>
                         </p>
                         <h4 className='mt-4 mb-3 fw-bold'>Location</h4>
-                        <p>Muradpur | Chattogram</p>
+                        <p>Rangunia</p>
                     </Col>
                 </Row>
                 <hr />
                 <div className='d-flex flex-wrap justify-content-lg-between'>
                     <div>
-                        All rights reserved © Smart Watch 2021
+                        All rights reserved © Bike Rangunia  2021
                     </div>
                     <div>
                         <small>Terms & Conditions</small>

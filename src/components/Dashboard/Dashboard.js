@@ -28,7 +28,7 @@ const Dashboard = () => {
                 {/* Dashboard Sidebar  */}
                 <nav id="sidebar" className={toggle ? '' : 'active'}>
                     <div className="sidebar-header">
-                        <Link to={'/home'}><h3>Smart Watch DashBoard </h3></Link>
+                        <Link to={'/home'}><h3>Bike Rangunia </h3></Link>
                     </div>
 
                     <ul className="list-unstyled components">

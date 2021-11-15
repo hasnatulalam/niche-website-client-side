@@ -9,7 +9,10 @@ const NavBar = () => {
         <div className='border-bottom'>
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container className='py-1'>
-                    <Navbar.Brand className='fs-3 fw-bold text-dark ms-2' style={{ fontFamily: 'Charmonman' }}>Smart Watch</Navbar.Brand>
+                <div className="d-flex">
+                        <img src="https://i.ibb.co/jWqW3Yc/logo.png" style={{ height: '50px', width: '100px' }} alt="" />
+                      
+                    </div>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <nav className="ms-lg-5 me-auto">
@@ -31,7 +34,7 @@ const NavBar = () => {
                             Log out
                         </button> :
                             <button className='btn btn-dark ms-3'>
-                                <Link className='text-light text-decoration-none' to='/login'>Login</Link>
+                            <Link className='text-light text-decoration-none' to='/login'>Login</Link>
                             </button>}
                     </Navbar.Collapse>
                 </Container>

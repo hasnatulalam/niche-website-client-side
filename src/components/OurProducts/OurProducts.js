@@ -9,7 +9,7 @@ const OurProducts = ({ page }) => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        const url = `https://shrouded-crag-70396.herokuapp.com/products`;
+        const url = `http://localhost:5000/products`;
         fetch(url)
             .then(res => res.json())
             .then(data => {

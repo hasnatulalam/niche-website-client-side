@@ -5,7 +5,7 @@ const AddProduct = () => {
     const { register, handleSubmit, reset } = useForm();
 
     const onSubmit = data => {
-        const url = `https://shrouded-crag-70396.herokuapp.com/addNewProduct`;
+        const url = `http://localhost:5000/addNewProduct`;
         fetch(url, {
             method: 'POST',
             headers: {

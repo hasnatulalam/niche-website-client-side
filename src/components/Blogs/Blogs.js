@@ -12,10 +12,10 @@ const Blogs = () => {
                 <Row xs={1} md={2} lg={4} className="g-4">
                     <Col>
                         <Card className='p-0 border-0 shadow'>
-                            <Card.Img variant="top" className="picture" src="https://www.lifestyle-collection.com.pk/wp-content/uploads/2021/05/BMM0A10055-1-330x440.jpg" />
+                            <Card.Img variant="top" className="picture" src="https://i.ibb.co/q1PG7yc/reviews-person1.jpg" />
                             <Card.Body>
-                                <Card.Title>Learn: What is a DAC?</Card.Title>
-                                <Card.Text><small className='text-muted'>A watch is a portable timepiece intended to be carried or worn by a person. It is designed to keep a consistent movement despite the motions caused by the person's activities.  ...</small></Card.Text>
+                                <Card.Title>Learn: Bike Riding</Card.Title>
+                                <Card.Text><small className='text-muted'>I would like to say thank you to the whole team of organizers for the perfect event. It was the best sport competition I’ve ever attended and I am really looking forward to the series next year. Good luck!.  ...</small></Card.Text>
                                 <div className='d-flex justify-content-between'>
                                     <small className='text-muted'>OCT. 20, 2021</small>
                                     <small style={{ color: 'rgb(197,168,128)' }}>8 COMMENTS</small>
@@ -25,10 +25,10 @@ const Blogs = () => {
                     </Col>
                     <Col>
                         <Card className='p-0 border-0 shadow'>
-                            <Card.Img variant="top" className="picture" src="https://timeandtidewatches.com/wp-content/uploads/2020/02/Screen-Shot-2020-02-29-at-10.40.25-am.png" />
+                            <Card.Img variant="top" className="picture" src="https://i.ibb.co/Kqt5QvV/reviews-person2.jpg" />
                             <Card.Body>
-                                <Card.Title>Great Rolex</Card.Title>
-                                <Card.Text><small className='text-muted'> A wristwatch is designed to be worn around the wrist, attached by a watch strap or other type of bracelet, including metal bands.During most of its history the watch was a mechanical device driven by clockwork, powered by winding </small></Card.Text>
+                                <Card.Title>Suzuki Gixxer</Card.Title>
+                                <Card.Text><small className='text-muted'>The whole experience was absolutely amazing. Thank you to the team for the perfect organization of the event. It was a great first bicycle race experience for me and I really look forward to next years’ competitions  </small></Card.Text>
                                 <div className='d-flex justify-content-between'>
                                     <small className='text-muted'>OCT. 22, 2021</small>
                                     <small style={{ color: 'rgb(197,168,128)' }}>3 COMMENTS</small>
@@ -38,10 +38,10 @@ const Blogs = () => {
                     </Col>
                     <Col>
                         <Card className='p-0 border-0 shadow'>
-                            <Card.Img variant="top" className="picture" src="https://images.othoba.com/images/thumbs/0356567_casio-mtp-v005l-7b4udf-brown-leather-strap-watch-for-men_300.jpeg" />
+                            <Card.Img variant="top" className="picture" src="https://i.ibb.co/562yBRt/bike4pg.jpg" />
                             <Card.Body>
                                 <Card.Title>Latest  feature</Card.Title>
-                                <Card.Text><small className='text-muted'>Watches were developed in the 17th century from spring-powered clocks, which appeared as early as the 14th century. During most of its history the watch was a mechanical device.And also Attracted and you will love it</small></Card.Text>
+                                <Card.Text><small className='text-muted'>The whole experience was absolutely amazing. Thank you to the team for the perfect organization of the event. It was a great first bicycle race experience for me and I really look forward to next years’ competitions</small></Card.Text>
                                 <div className='d-flex justify-content-between'>
                                     <small className='text-muted'>NOV. 01, 2021</small>
                                     <small style={{ color: 'rgb(197,168,128)' }}>9 COMMENTS</small>
@@ -51,10 +51,10 @@ const Blogs = () => {
                     </Col>
                     <Col>
                         <Card className='p-0 border-0 shadow'>
-                            <Card.Img variant="top" className="picture" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-20-watch-brands-rolex-1617145834.jpg?crop=1xw:1xh;center,top&resize=480:*" />
+                            <Card.Img variant="top" className="picture" src="https://i.ibb.co/7S3tCFx/bike5.jpg" />
                             <Card.Body>
                                 <Card.Title>Watch Evolution</Card.Title>
-                                <Card.Text><small className='text-muted'>Watches evolved from portable spring-driven clocks, which first appeared in 15th-century Europe. Watches were not widely worn in pockets until the 17th century. a mainspring, and keeping time with an oscillating balance wheel. These are called mechanical watches.A watch is a portable timepiece intended to be carried or worn by a person.  ..</small></Card.Text>
+                                <Card.Text><small className='text-muted'> Safe Trading Electric Motorcycle on Leading B2B Platform. Quality Electric Motorcycle with Competitive Price. China’s B2B Impact Award. SGS Audited Suppliers.  </small></Card.Text>
                                 <div className='d-flex justify-content-between'>
                                     <small className='text-muted'>NOV. 03, 2021</small>
                                     <small style={{ color: 'rgb(197,168,128)' }}>5 COMMENTS</small>

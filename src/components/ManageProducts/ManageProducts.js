@@ -8,7 +8,7 @@ const ManageProducts = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const url = `https://shrouded-crag-70396.herokuapp.com/products`;
+        const url = `http://localhost:5000/products`;
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -22,7 +22,7 @@ const ManageProducts = () => {
         console.log(id);
         const proceed = window.confirm('Are you sure, you want to delete the product?')
         if (proceed) {
-            const url = `https://shrouded-crag-70396.herokuapp.com/deleteProduct/${id}`
+            const url = `http://localhost:5000/deleteProduct/${id}`
             fetch(url, {
                 method: 'DELETE'
             })
