@@ -13,7 +13,7 @@ const PlaceOrder = () => {
     const { register, handleSubmit, reset } = useForm();
 
     useEffect(() => {
-        const url = `http://localhost:5000/products/${productId}`;
+        const url = `https://sheltered-journey-90436.herokuapp.com/products/${productId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setProduct(data))
@@ -23,7 +23,7 @@ const PlaceOrder = () => {
         data.order = product._id;
         data.status = 'pending';
 
-        const url = `http://localhost:5000/placeOrder`;
+        const url = `https://sheltered-journey-90436.herokuapp.com/placeOrder`;
         fetch(url, {
             method: 'POST',
             headers: {

@@ -11,14 +11,14 @@ const MyOrders = () => {
     const { user } = useAuth();
 
     useEffect(() => {
-        const url = `http://localhost:5000/myOrders/${user.email}`;
+        const url = `https://sheltered-journey-90436.herokuapp.com/myOrders/${user.email}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setMyOrders(data))
     }, [user.email])
 
     useEffect(() => {
-        const url = `http://localhost:5000/products`;
+        const url = `https://sheltered-journey-90436.herokuapp.com/products`;
         fetch(url)
             .then(res => res.json())
             .then(data => setProducts(data))
@@ -45,7 +45,7 @@ const MyOrders = () => {
     const handleCancelOrder = (id) => {
         const proceed = window.confirm('Are you sure, you want to cancel the order?')
         if (proceed) {
-            const url = `http://localhost:5000/deleteOrder/${id}`;
+            const url = `https://sheltered-journey-90436.herokuapp.com/deleteOrder/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

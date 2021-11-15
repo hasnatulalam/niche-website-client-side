@@ -5,7 +5,7 @@ const AddProduct = () => {
     const { register, handleSubmit, reset } = useForm();
 
     const onSubmit = data => {
-        const url = `http://localhost:5000/addNewProduct`;
+        const url = `https://sheltered-journey-90436.herokuapp.com/addNewProduct`;
         fetch(url, {
             method: 'POST',
             headers: {

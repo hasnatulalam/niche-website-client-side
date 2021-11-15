@@ -9,7 +9,7 @@ const OurProducts = ({ page }) => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        const url = `http://localhost:5000/products`;
+        const url = `https://sheltered-journey-90436.herokuapp.com/products`;
         fetch(url)
             .then(res => res.json())
             .then(data => {
